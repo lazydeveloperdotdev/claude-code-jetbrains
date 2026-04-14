@@ -1,11 +1,10 @@
 <idea-plugin>
     <id>dev.lazydevelop.claudecode</id>
     <name>Claude Code</name>
-    <vendor email="contact@lazydeveloper.dev" url="https://www.lazydeveloper.dev">Lazy Developer</vendor>
+    <vendor email="rajyadav_np@outlook.com" url="https://www.lazydeveloper.dev">Lazy Developer</vendor>
 
     <description><![CDATA[
-    <img src="/screenshots/screenshot.png" alt="Screenshot" width="600"/>
-    <p style="padding-left: 12px;border-left: 2px solid #808080"><b>IMPORTANT:</b> This plugin requires Claude Code to be installed separately. For more information, see
+    <p style="padding-left: 8px;border-left: 3px solid #808080"><b>IMPORTANT:</b> This plugin requires Claude Code to be installed separately. For more information, see
     <a href="https://code.claude.com/docs/en/overview">claude.com/claude-code</a>.</p>
 
     <p>Claude Code in side-panel with multi-tab support for JetBrains IDEs.
@@ -21,12 +20,22 @@
     </ul>
 
     <h3 style="margin: 0">Visit</h3>
-    <ul style="padding: 0;margin-top: 4px">
-    <li><a href="https://www.lazydeveloper.dev">Lazy Developer</a></li>
-    <li><a href="https://github.com/lazydeveloperdotdev">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/lazydeveloperdotdev">LinkedIn</a></li>
-    </ul>
+    <div style="float:left">
+    <a href="https://www.lazydeveloper.dev">Lazy Developer</a> &#x2022;
+    <a href="https://github.com/lazydeveloperdotdev">GitHub</a> &#x2022;
+    <a href="https://www.linkedin.com/in/lazydeveloperdotdev">LinkedIn</a>
+    </div>
     ]]></description>
+
+    <change-notes><![CDATA[
+      <h3 style="margin: 0">1.0.0 - Initial Release</h3>
+      <ul style="padding: 0;margin-top: 4px">
+      <li>Multiple Claude Code sessions in separate tabs</li>
+      <li>Browser-style tab management with + button</li>
+      <li>Dynamic tab titles based on conversation context</li>
+      <li>Independent conversation contexts per tab</li>
+      </ul>
+  ]]></change-notes>
 
     <depends>com.intellij.modules.platform</depends>
     <depends>org.jetbrains.plugins.terminal</depends>
