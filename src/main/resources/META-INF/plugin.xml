@@ -1,0 +1,41 @@
+<idea-plugin>
+    <id>dev.lazydevelop.claudecode</id>
+    <name>Claude Code</name>
+    <vendor email="contact@lazydeveloper.dev" url="https://www.lazydeveloper.dev">Lazy Developer</vendor>
+
+    <description><![CDATA[
+    <img src="/screenshots/screenshot.png" alt="Screenshot" width="600"/>
+    <p style="padding-left: 12px;border-left: 2px solid #808080"><b>IMPORTANT:</b> This plugin requires Claude Code to be installed separately. For more information, see
+    <a href="https://code.claude.com/docs/en/overview">claude.com/claude-code</a>.</p>
+
+    <p>Claude Code in side-panel with multi-tab support for JetBrains IDEs.
+    Run multiple Claude Code sessions in separate tabs within your IDE.</p>
+
+    <h3 style="margin: 0">Features</h3>
+    <ul style="padding: 0;margin-top: 4px">
+    <li>Multiple Claude sessions in tabs</li>
+    <li>Full Claude terminal experience with TUI</li>
+    <li>Easy tab management - create new tabs with one click</li>
+    <li>Each tab maintains its own conversation context</li>
+    <li>Dynamic tab titles that update based on your conversation</li>
+    </ul>
+
+    <h3 style="margin: 0">Visit</h3>
+    <ul style="padding: 0;margin-top: 4px">
+    <li><a href="https://www.lazydeveloper.dev">Lazy Developer</a></li>
+    <li><a href="https://github.com/lazydeveloperdotdev">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/lazydeveloperdotdev">LinkedIn</a></li>
+    </ul>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.plugins.terminal</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Claude Code"
+                    secondary="false"
+                    icon="/icons/claude-icon.svg"
+                    anchor="right"
+                    factoryClass="dev.lazydevelop.claudecode.ui.ClaudeCodeToolWindowFactory"/>
+    </extensions>
+</idea-plugin>
