@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>dev.lazydevelop.claudecode</id>
-    <name>Claude Code</name>
+    <name>Claude Code (Side-Panel)</name>
     <vendor email="rajyadav_np@outlook.com" url="https://www.lazydeveloper.dev">Lazy Developer</vendor>
 
     <description><![CDATA[
